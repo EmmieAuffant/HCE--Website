@@ -1,0 +1,104 @@
+body{
+  font-family: "Jost", sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.s-home{
+  height: 1080px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(imgs/background.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.header{
+  background-color: rgba(4, 56, 6, 0.684);
+  display: inline-flex;
+  position: fixed;
+}
+
+.logo-header{
+  width: 7%;
+  filter: grayscale(100%) brightness(300%);
+  padding: 20px 20px;
+}
+
+.b-contact{
+  font-weight: 500 !important;
+}
+
+.b-about, .b-gallery, .b-services {
+  margin-left: 20px;
+}
+
+.fivestar{
+  display: inline-flex;
+  align-items:center;
+  justify-content: end;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.p-fivestar{
+  text-align: center;
+}
+
+
+.b-header {
+  font-family: "Jost", sans-serif;
+  color: white;
+  font-size: 35px;
+  font-weight: 300;
+
+  background: none;
+  border: none;
+}
+
+.b-header-buttons{
+  margin-left: 20px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.t-home {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding: 250px 0px 0px 0px;
+  row-gap: 1px;
+}
+
+.h-home {
+  font-size:25px;
+  width: 600px;
+  padding-bottom: 0;
+}
+
+.p-home{
+  font-size: 20px;
+  width: 600px;
+  padding-bottom: 0;
+
+}
+
+.home-text {
+  margin-bottom: 0;
+}
+
+.companies{
+  display: inline-flex;
+  background-color: rgba(255, 255, 255, .55);
+  margin-top:175px;
+  height: 120px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ct-logo-img, .nc-logo-img{
+  width: 200px;
+}
+
+.aw-logo-img {
+  width: 100px;
+}
