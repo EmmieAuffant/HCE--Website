@@ -1,24 +1,30 @@
 .below-home{
-  background-color: rgb(5, 2, 41);
+  background-color: rgb(10, 41, 2);
   margin: 0;
 }
 
-.images-left {
-  display: inline-flex;
-  padding: 50px 0px 50px 50px;
+.container-left{
+  display: grid;
+  grid-template-rows: 400px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: 
+  'i text';
+}
+
+.image{
+  grid-area:i;
+  overflow: clip;
+  object-fit: cover;
+  padding: 20px 20px 20px 50px;
+  width: 500px;
+  height: 300px;
+}
+
+
+.text{
+  grid-area:text;
 }
 
 .images{
-  width: 700px;
-}
-
-.text-right{
-  display: inline-flex;
-  width: 720px;
-
-  padding-left: 50px;
-}
-
-.text{
-  text-align: center;
+  object-fit:cover;
 }
