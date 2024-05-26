@@ -15,16 +15,33 @@
   grid-area:i;
   overflow: clip;
   object-fit: cover;
-  padding: 20px 20px 20px 50px;
   width: 500px;
   height: 300px;
+  object-fit: cover;
 }
 
+.image-left{
+  padding: 20px 20px 20px 20px;
+}
+
+.image-right{
+  padding: 20px 50px 20px 20px;
+}
 
 .text{
   grid-area:text;
+  padding: 50px;
+  height: 300px;
 }
 
-.images{
-  object-fit:cover;
+.container-right{
+  display: grid;
+  grid-template-rows: 400px;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 
+  'text i';
+}
+
+.p-text{
+  font-size:20px;
 }
