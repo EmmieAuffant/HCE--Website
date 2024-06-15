@@ -16,6 +16,7 @@ body{
   display: grid;
   justify-content: center;
   margin-bottom: 20px;
+  width: 100vw;
 }
 
 .h-contact{
@@ -53,3 +54,32 @@ body{
   text-align: center;
 }
 
+.form-group{
+  width: 100vs;
+}
+
+@media (max-width: 600px){
+
+  .divider-container{
+    width: 100vw;
+  }
+
+  .contact-container{
+    width: 100vw;
+    height: fit-content;
+  }
+
+  #name, #how-found, #email, #message{
+    height: 40px;
+    width: 100%;
+    margin:10px 20px;
+  }
+  
+  #b-submit{
+    width: 40%;
+  }
+
+  .form-group{
+    width: 80vw;
+  }
+}

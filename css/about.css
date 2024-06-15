@@ -1,0 +1,9 @@
+.about-container{
+  height: 100vh;
+}
+
+.p-about {
+  height: 70vh;
+  margin-top: 20vh;
+  padding-left: 20px;
+}

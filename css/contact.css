@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(165, 161, 157);
+  background-color:rgb(255, 242, 242);
 }
 
 .container{
@@ -21,6 +21,7 @@ body{
 
   border-top-left-radius: 5%;
   border-bottom-left-radius: 5%;
+
 }
 
 .contact-container{
@@ -38,7 +39,7 @@ body{
 }
 
 #name, #how-found, #email, #message{
-  margin: 20px;
+  margin: 0 20px;
   padding: 15px;
   font-family: "Jost", sans-serif;
   font-size: large;
@@ -49,15 +50,61 @@ body{
   border-bottom: 2px solid rgb(51, 66, 46);
 }
 
-#name::placeholder{
-  color: white;
-}
-
-#email::placeholder{
+#name::placeholder, #email::placeholder,
+ #how-found::placeholder, #message::placeholder,
+ #name, #email, #how-found, #message, .h-contact{
   color: rgb(59, 82, 58);
 }
 
 #message{
   border: 2px solid rgb(51, 66, 46);
+  margin-top: 10px;
 }
 
+.h-contact{
+  padding-top: 20px;
+  padding-left: 20px;
+  height: min-content;
+
+  font-size: 30px;
+}
+
+.b-submit-container{
+  padding-left: 20px;
+}
+
+#b-submit{
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid rgb(51, 66, 46);
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  color: rgb(51, 66, 46);
+  font-size: large;
+}
+
+.t-contact{
+  padding: 20px 20px;
+  padding-bottom: 0;
+}
+
+.bi{
+  padding-right: 10px;
+}
+
+.indent{
+  margin-left: 25px;
+}
+
+ul{
+  list-style:none;
+  padding: 0;
+}
+
+li{
+  padding-bottom: 10px;
+}
+
+.temp{
+  padding-top: 0;
+}
