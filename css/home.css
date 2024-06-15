@@ -1,65 +1,9 @@
-body{
-  font-family: "Jost", sans-serif;
-  color: white;
-  margin: 0;
-}
-
 .s-home{
-  height: 1080px;
+  height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("https://lh3.googleusercontent.com/pw/AP1GczOrpmmPcfUGbdNFtdVrp6YyxhWn8RKoBDaL9A3eIk2p5VkilZeh9NS1bdJ3oq7OCefEMRwG3JSju5sSkeJ35cAaEvjpeOMZxMA7dyHJ0sO1P0LkoQpyxMq9DDRPBKptmZ3fSNk5SCEcLvfZA58-KfFC=w1215-h911-s-no-gm?authuser=0");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
-}
-
-.header{
-  background-color: rgba(4, 56, 6, 0.684);
-  display: inline-flex;
-  position: fixed;
-}
-
-.logo-header{
-  width: 7%;
-  filter: grayscale(100%) brightness(300%);
-  padding: 20px 20px;
-}
-
-.b-contact{
-  font-weight: 500 !important;
-  width: 200px;
-}
-
-.b-about, .b-gallery, .b-services {
-  margin-left: 20px;
-}
-
-.fivestar{
-  display: inline-flex;
-  align-items:center;
-  justify-content: end;
-  width: 100%;
-  padding-right: 20px;
-}
-
-.p-fivestar{
-  text-align: center;
-}
-
-
-.b-header {
-  font-family: "Jost", sans-serif;
-  color: white;
-  font-size: 35px;
-  font-weight: 300;
-
-  background: none;
-  border: none;
-}
-
-.b-header-buttons{
-  margin-left: 20px;
-  display: inline-flex;
-  justify-content: center;
 }
 
 .t-home {

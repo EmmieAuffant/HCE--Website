@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HomeCraft Exteriors</title>
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/home2.css">
+    <link rel="stylesheet" href="css/home3.css">
     <link rel="icon" href="imgs/HomeCraft_logo_green.png" type="imgs/HomeCraft_logo_green.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,7 +64,7 @@
 
     <div class="below-home">
       
-      <div class="container-left">
+      <div class="desc-container">
         <div class="image image-left">
           <img src="imgs/img-1.jpg" class="image image-left">
         </div>
@@ -74,25 +76,25 @@
         </div>
       </div>
 
-      <div class="container-left">
+      <div class="desc-container two">
         <div class="image image-left">
           <img src="imgs/img-2.png" class="image image-left">
         </div>
 
         <div class="text">
           <p class="p-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consectetur atque tempore facere voluptatem nisi dolores eum voluptate pariatur voluptatum assumenda, deleniti, animi aut ullam, fugit soluta neque harum in!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab maxime amet vero! Sequi earum quibusdam error doloribus fugiat itaque voluptates, ullam facere obcaecati atque temporibus assumenda laborum fugit minima eum!
           </p>
         </div>
       </div>
     </div>
-
+    
     <!--Reviews-->
 
     <div class="reviews">
       
       <div class="">
-        <div class="h-reviews">What Our Loyal Clients Say</div>
+        <div class="h-reviews">Testimonials</div>
       </div>
       
       <div class="container-reviews">
@@ -126,7 +128,36 @@
     </div>
 
 
+    <div class="divider-container"></div>
+
     <!--Contact Sheet-->
-    
+  
+    <div class="contact-container">
+      <div class="h-reviews h-contact">Contact Us</div>
+      <form id="contact-form">
+          <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Name" required>
+          </div>
+          <div class="form-group">
+              <input id="how-found" name="how-found" placeholder="How did you find us?" required>
+          </div>
+          <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>          </div>
+          <div class="b-submit-container">
+            <button type="submit" id="b-submit">Submit</button>
+          </div>
+      </form>
+  </div>
+
+
+  <!--Footer-->
+
+  <div class="footer">
+    temp
+  </div>
+
   </body>
 </html>

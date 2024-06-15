@@ -1,56 +1,45 @@
 .below-home{
-  background: rgb(10, 41, 2) linear-gradient(rgb(10, 41, 2), rgb(105, 137, 96));
-  transform: ;
+  background: rgb(51, 66, 46);
   margin: 0;
 }
 
-.container-left{
+.desc-container{
+  height: 50vh;
   display: grid;
-  grid-template-rows: 400px;
   grid-template-columns: 1fr 2fr;
   grid-template-areas: 
   'i text';
+
+  /* padding:20px 20px ; */
+}
+
+.two{
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 
+  'text i';
 }
 
 .image{
   grid-area:i;
   overflow: clip;
   object-fit: cover;
-  width: 500px;
-  height: 300px;
-  object-fit: cover;
-}
-
-.image-left{
-  padding: 20px 20px 20px 20px;
-}
-
-.image-right{
-  padding: 20px 50px 20px 20px;
+  width: 50vw;
+  height: 50vh;
 }
 
 .text{
   grid-area:text;
   padding: 50px;
-  height: 300px;
-}
-
-.container-right{
-  display: grid;
-  grid-template-rows: 400px;
-  grid-template-columns: 2fr 1fr;
-  grid-template-areas: 
-  'text i';
 }
 
 .p-text{
-  font-size:20px;
+  font-size:30px;
+  font-weight: 300;
 }
 
 .container-reviews{
   height: 500px;
-  margin-bottom: 60px;
-  background-color: rgb(105, 137, 96);
+  background: rgb(51, 66, 46);
   padding-bottom:70px;
   
   display: grid;
@@ -61,7 +50,7 @@
 }
 
 .review{
-  margin-top: 0;
+  margin-top: 20px;
   color: rgb(7, 52, 7);
   border: 2px solid rgb(7, 52, 7);
   border-radius: 5%;
@@ -69,7 +58,7 @@
 }
 
 .h-reviews{
-  background-color: rgb(105, 137, 96);
+  background: rgb(51, 66, 46);
   text-align: center;
   font-size: 40px;
   padding:20px 0;
@@ -78,7 +67,7 @@
 .client{
   text-align: center;
   font-size: 40px;
-  padding: 10px 0px;
+  padding-top:20px;
   font-family: "Khand", sans-serif;
   font-weight: 600;
 }

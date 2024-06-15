@@ -1,0 +1,60 @@
+body{
+  font-family: "Jost", sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.header{
+  background-color: rgba(4, 56, 6, 0.684);
+  display: inline-flex;
+  position: fixed;
+}
+
+.logo-header{
+  width: 7%;
+  filter: grayscale(100%) brightness(300%);
+  padding: 20px 20px;
+}
+
+.b-contact{
+  font-weight: 500 !important;
+  width: 200px;
+}
+
+.b-about, .b-gallery, .b-services {
+  margin-left: 20px;
+}
+
+.fivestar{
+  display: inline-flex;
+  align-items:center;
+  justify-content: end;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.p-fivestar{
+  text-align: center;
+}
+
+
+.b-header {
+  font-family: "Jost", sans-serif;
+  color: white;
+  font-size: 35px;
+  font-weight: 300;
+
+  background: none;
+  border: none;
+}
+
+.b-header-buttons{
+  margin-left: 20px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.footer{
+  height: 16vh;
+  background-color: rgb(51, 66, 46);
+}

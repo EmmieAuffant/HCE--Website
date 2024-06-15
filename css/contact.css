@@ -1,0 +1,63 @@
+body{
+  background-color:rgb(165, 161, 157);
+}
+
+.container{
+  height: 100vh;
+  display: grid;
+  grid-template-areas: 'a b';
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.left-contact-container{
+  grid-area: a;
+
+  height: 60vh;
+  width: 20vw;
+  background-color: rgb(51, 66, 46);
+  border: 2px solid rgb(51, 66, 46);
+
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+}
+
+.contact-container{
+  grid-area: b;
+
+  text-align: left;
+  justify-content: left;
+  height: 60vh;
+  width: 30vw;
+  border: 2px solid rgb(51, 66, 46);
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+
+  display: grid;
+}
+
+#name, #how-found, #email, #message{
+  margin: 20px;
+  padding: 15px;
+  font-family: "Jost", sans-serif;
+  font-size: large;
+  margin-bottom: 10px;
+  width: 150%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(51, 66, 46);
+}
+
+#name::placeholder{
+  color: white;
+}
+
+#email::placeholder{
+  color: rgb(59, 82, 58);
+}
+
+#message{
+  border: 2px solid rgb(51, 66, 46);
+}
+

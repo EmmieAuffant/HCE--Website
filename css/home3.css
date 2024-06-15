@@ -1,0 +1,55 @@
+body{
+  background-color:rgb(165, 161, 157);
+  margin: 0;
+  padding: 0;
+}
+
+.divider-container{
+  height: 50vh;
+  background-image: url("https://lh3.googleusercontent.com/pw/AP1GczMdw3qaYq6G8eyDqZ6k8YNXR7SsY9maNfW4GzwzYzyNvKP9M4zh8K-LLMKfsX_4AQvVKGMGRV8eqGhNvcfrVYC38ODCDAoAFUAOAxLn0kZd27QWkjpoVNhY44SLBQ62wApAGHlTkSeI9ijFd-JIa5YZ=w1215-h911-s-no-gm?authuser=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-container{
+  height: 70vh;
+  display: grid;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.h-contact{
+  background-color: transparent !important;
+  padding-top: 37px;
+}
+
+#name, #how-found, #email, #message{
+  height: 40px;
+  font-family: "Jost", sans-serif;
+  font-size: large;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 15px 15px;
+  width: 40vw;
+}
+
+#message{
+  height: 150px !important;
+  display: inline-flex;
+}
+
+#b-submit{
+  padding: 15px 15px;
+  border: 1px solid black;
+  background-color: white;
+  width: 10vw;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: large;
+}
+
+.b-submit-container{
+  text-align: center;
+}
+
