@@ -17,11 +17,9 @@ body{
   height: 60vh;
   width: 20vw;
   background-color: rgb(51, 66, 46);
-  border: 2px solid rgb(51, 66, 46);
 
   border-top-left-radius: 5%;
   border-bottom-left-radius: 5%;
-
 }
 
 .contact-container{
@@ -31,7 +29,6 @@ body{
   justify-content: left;
   height: 60vh;
   width: 30vw;
-  border: 2px solid rgb(51, 66, 46);
   border-top-right-radius: 5%;
   border-bottom-right-radius: 5%;
 
@@ -76,7 +73,6 @@ body{
 #b-submit{
   padding: 10px;
   background-color: transparent;
-  border: 2px solid rgb(51, 66, 46);
   font-family: "Jost", sans-serif;
   font-weight: 400;
   color: rgb(51, 66, 46);
