@@ -104,3 +104,43 @@ li{
 .temp{
   padding-top: 0;
 }
+
+@media (max-width:600px) {
+  
+  .container{
+    grid-template-areas: 'a''b';
+    width: 100%;
+    height: fit-content;
+  }
+
+  .left-contact-container{
+    width: 100%;
+    margin-top: 25vh;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 0;
+  }
+
+  .contact-container{
+    width: 100%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5%;
+    margin-bottom: 20px;
+  }
+
+  .form-group{
+    width: 100%;
+  }
+
+  .h-contact{
+    padding: 20px;
+  }
+
+  #message, #email, #name, #how-found{
+    width: 78%;
+  }
+
+  .b-submit-container{
+    text-align: center;
+  }
+
+}

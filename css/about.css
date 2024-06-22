@@ -1,9 +1,131 @@
 .about-container{
-  height: 100vh;
+  display: grid;
+  height: fit-content;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'img text';
 }
 
-.p-about {
-  height: 70vh;
-  margin-top: 20vh;
-  padding-left: 20px;
+.img-about-container{
+  height: fit-content;
+  grid-area: img;
 }
+
+.img-about{
+  margin-top: 150px;
+  width: 50vw;
+}
+
+.h-aboutus, .p-aboutus{
+  color: rgb(51, 66, 46);
+  padding: 10px 20px;
+}
+
+.about-text-container{
+  grid-area: text;
+  margin-top: 150px;
+}
+
+.h-aboutus{
+  font-size: xx-large;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.p-aboutus{
+  font-size: large;
+}
+
+.container-values{
+  height: 500px;
+  padding-bottom:70px;
+  
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  column-gap: 20px;
+  justify-content: center;
+
+}
+
+.values{
+  height: fit-content;
+}
+
+.value{
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 5%;
+  background-color: rgb(51, 66, 46);
+}
+
+.h-values{
+  color: rgb(51, 66, 46);
+  text-align: center;
+  font-size: 40px;
+  padding:20px 0;
+}
+
+.values{
+  text-align: center;
+  font-size: 40px;
+  padding-top:20px;
+  font-family: "Khand", sans-serif;
+  font-weight: 600;
+}
+
+.desc{
+  padding: 0px 25px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.house-container{
+  padding-top: 20px;
+}
+
+@media (max-width:1024px){
+  .container-values{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    height:fit-content;
+  }
+
+  .value{
+    margin: 10px 30px;
+  }
+
+  .about-container{
+    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'img''text';
+  }
+
+  .img-about{
+    width: 100%;
+    height: 100%;
+    margin-top: 15vh;
+  }
+  
+  .about-text-container{
+    width: 100vw;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .p-aboutus{
+    font-size: 150%;
+  }
+  }
+  
+  @media (max-width:600px){
+    .img-about{
+      margin-top: 18vh;
+    }
+
+    .p-aboutus{
+      font-size: 100%;
+    }
+  }

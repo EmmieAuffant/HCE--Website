@@ -12,7 +12,7 @@ body{
 }
 
 .contact-container{
-  height: 70vh;
+  height: fit-content;
   display: grid;
   justify-content: center;
   margin-bottom: 20px;
@@ -54,11 +54,7 @@ body{
   text-align: center;
 }
 
-.form-group{
-  width: 100vs;
-}
-
-@media (max-width: 600px){
+@media (max-width: 1024px){
 
   .divider-container{
     width: 100vw;
@@ -67,6 +63,14 @@ body{
   .contact-container{
     width: 100vw;
     height: fit-content;
+  }
+
+  .contact-form{
+    text-align: center;
+  }
+  
+  .form-group{
+    width: 100%;
   }
 
   #name, #how-found, #email, #message{
