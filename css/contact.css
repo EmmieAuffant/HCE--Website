@@ -144,3 +144,43 @@ li{
   }
 
 }
+
+@media (max-width:600px) {
+  
+  .container{
+    width: 100vw;
+    height: fit-content;
+  }
+
+  .left-contact-container{
+    width: 80vw;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 0;
+  }
+
+  .contact-container{
+    width: 75vw;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5%;
+    margin-bottom: 20px;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  .form-group{
+    width: 100%;
+  }
+
+  .h-contact{
+    padding: 20px;
+  }
+
+  #message, #email, #name, #how-found{
+    width: 78%;
+  }
+
+  .b-submit-container{
+    text-align: center;
+  }
+
+}

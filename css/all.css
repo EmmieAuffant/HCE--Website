@@ -12,19 +12,19 @@ body{
   position: fixed;
   width: 100vw;
   height: 150px;
+  align-items: center;
 }
 
 .logo-header{
-  height: 10vh;
+  height: 110px;
   filter: grayscale(100%) brightness(300%);
-  padding: 10px;
 }
 
 .b-contact{
   font-weight: 500 !important;
 }
 
-.b-about, .b-gallery, .b-services {
+.b-about, .b-services {
   margin-left: 20px;
 }
 
@@ -70,6 +70,11 @@ body{
 
   body{
     width: 100vw;
+  }
+
+  .b-about, .b-services{
+    margin-left: 0;
+    margin: 0 10px;
   }
   
   .header{
