@@ -1,4 +1,8 @@
 
+body{
+  overflow-x: hidden;
+}
+
 .services{
   display: grid;
   grid-template-areas: 'header''desc';
@@ -31,6 +35,8 @@
   font-weight: 200;
   font-family: "Khand", sans-serif;
   text-align: center;
+  width: 50vw;
+  justify-self: center;
 }
 
 .container{
@@ -61,42 +67,8 @@
   margin: 20px;
 }
 
-@media (max-width: 600px){
 
-  body{
-    width: 100vw;
-    overflow-x: hidden;
-  }
 
-  .row{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-  }
-
-  .image{
-    width: 50vw;
-  }
-
-  .services-text{
-    font-size: 50px;
-  }
-
-  .services-desc-text{
-    font-size: 25px;
-    width: 50vw;
-    margin: 0;
-  }
-
-  .service-header{
-    width: 100%;
-  }
-
-  .container{
-    width: 100%;
-  }
-
-}
-/*
 @media (max-width: 1024px){
 
   .row{
@@ -109,5 +81,46 @@
     width: 48vw;
    
   }
+
+  .services-desc-text{
+    width: 80vw;
+  }
     
+}
+
+@media (max-width: 600px){
+
+  body{
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .row{
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .image{
+    width: 90vw;
+    justify-self: center;
+  }
+
+  .services-text{
+    font-size: 50px;
+  }
+
+  .services-desc-text{
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .service-header{
+    width: 80vw;
+    font-size: x-large;
+  }
+
+  .container{
+    width: 100vw;
+  }
+
 }
