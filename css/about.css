@@ -28,16 +28,22 @@
 .h-aboutus{
   font-size: xx-large;
   font-weight: 600;
-  padding-top: 20px;
+  padding-top: 50px;
+  text-align: center;
 }
 
 .p-aboutus{
-  font-size: large;
+  font-size: 25px;
+
+  padding: 50px;
+  text-align: center;
+  letter-spacing: 2.5px;
 }
 
 .container-values{
   height: 500px;
   padding-bottom:70px;
+  margin-bottom: 50px;
   
   display: grid;
   grid-template-columns: 400px 400px 400px;
