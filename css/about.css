@@ -41,7 +41,7 @@
 }
 
 .container-values{
-  height: 500px;
+  height: fit-content;
   padding-bottom:70px;
   margin-bottom: 50px;
   
