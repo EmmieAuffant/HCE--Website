@@ -31,12 +31,13 @@
 }
 
 .p-text{
-  font-size:30px;
+  font-size:40px;
+  word-spacing: 4px;
   font-weight: 300;
 }
 
 .container-reviews{
-  height: 500px;
+  height: fit-content;
   background: rgb(51, 66, 46);
   padding-bottom:70px;
   
@@ -52,6 +53,8 @@
   color: rgb(51, 66, 46);
   border-radius: 5%;
   background-color: rgb(230, 230, 230);
+  height: 65vh;
+  overflow-y: auto;
 }
 
 .h-reviews{
@@ -73,7 +76,6 @@
   padding: 0px 25px;
   text-align: center;
   font-size: 25px;
-
 }
 
 .stars {
@@ -93,8 +95,6 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr;
-    
-    height:fit-content;
   }
 
   .review{

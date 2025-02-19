@@ -61,6 +61,7 @@
   color: rgb(255, 255, 255);
   border-radius: 5%;
   background-color: rgb(51, 66, 46);
+  padding: 10px;
 }
 
 .h-values{
@@ -68,6 +69,7 @@
   text-align: center;
   font-size: 40px;
   padding:20px 0;
+  
 }
 
 .values{
@@ -76,16 +78,14 @@
   padding-top:20px;
   font-family: "Khand", sans-serif;
   font-weight: 600;
+  letter-spacing: 3px;
 }
 
 .desc{
   padding: 0px 25px;
   text-align: center;
   font-size: 25px;
-}
-
-.house-container{
-  padding-top: 20px;
+  font-weight: 400;
 }
 
 @media (max-width:1024px){
