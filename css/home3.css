@@ -55,7 +55,7 @@ body{
   text-align: center;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1200px){
 
   .divider-container{
     width: 100vw;
@@ -71,20 +71,18 @@ body{
   }
   
   .form-group{
-    width: 100%;
+    justify-self: center;
   }
 
   #name, #how-found, #email, #message{
     height: 40px;
-    width: 100%;
+    width: 80vw;
     margin:10px 20px;
+    
   }
   
   #b-submit{
     width: 40%;
   }
 
-  .form-group{
-    width: 80vw;
-  }
 }

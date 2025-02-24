@@ -88,7 +88,7 @@
   font-weight: 400;
 }
 
-@media (max-width:1024px){
+@media (max-width:1200px){
   .container-values{
     width: 100vw;
     display: grid;
@@ -112,7 +112,7 @@
   .img-about{
     width: 100%;
     height: 100%;
-    margin-top: 15vh;
+    margin-top: 14.5vh;
   }
   
   .about-text-container{
@@ -128,7 +128,7 @@
   
   @media (max-width:600px){
     .img-about{
-      margin-top: 18vh;
+      margin-top: 15vh;
     }
 
     .p-aboutus{

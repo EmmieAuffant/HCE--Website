@@ -89,7 +89,7 @@
 
 
 
-@media (max-width:1024px){
+@media (max-width:1200px){
   .container-reviews{
     width: 100vw;
     display: grid;
@@ -99,6 +99,7 @@
 
   .review{
     margin: 10px 30px;
+    height: 25vh;
   }
 
   .desc-container{

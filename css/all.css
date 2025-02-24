@@ -148,7 +148,7 @@ body{
     width: 100vw;
     overflow: clip;
     justify-content: center;
-    height: fit-content;
+    height: 15vh;
   }
   
   .fivestar{
@@ -168,7 +168,7 @@ body{
   .b-header {
     font-size: 100%;
     width: 100%;
-    padding: 10px 0 !important;
+    padding: 10px 10px !important;
     text-align: center;
     margin: 0;
   }
@@ -183,24 +183,25 @@ body{
 
   .b-contact{
     grid-area: 1;
+    font-size: x-large;
   }
 
   .b-about{
     grid-area: 2;
+    font-size: x-large;
   }
 
   .b-services{
     grid-area: 3;
+    font-size: x-large;
   }
 
   .logo-header{
     justify-self: center;
     text-align: center;
     margin: 5px 0;
-    
-  }
-  
-
+    height: 8vh;
+}
 }
 
 @media (max-width:600px){
