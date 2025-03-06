@@ -232,4 +232,8 @@ body{
   .footer-c{
     display:none;
   }
+
+  .header{
+    justify-content: center;
+  }
 }
