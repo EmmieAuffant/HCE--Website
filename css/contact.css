@@ -105,6 +105,12 @@ li{
   padding-top: 0;
 }
 
+.phone-link {
+  text-decoration: none;
+  color: white;
+}
+
+
 @media (max-width:1200px) {
   
   .container{

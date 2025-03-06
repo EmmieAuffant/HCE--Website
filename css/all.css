@@ -5,6 +5,7 @@ body{
   background-color:rgb(255, 242, 242);
   overflow-x: hidden;
   scroll-behavior: smooth;
+  height: 100vh;
 }
 
 .header{
@@ -210,8 +211,9 @@ body{
     grid-template-areas: "a b";
   }
 
-  .footer-href, .bi{
-    font-size: 12px;
+  .bi-footer{
+    font-size: 20px;
+    padding: 0;
   }
 
   .footer-b{
@@ -233,7 +235,7 @@ body{
     display:none;
   }
 
-  .header{
-    justify-content: center;
+  .footer-href{
+    font-size: 12px;
   }
 }
