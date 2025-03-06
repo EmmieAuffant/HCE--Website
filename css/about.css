@@ -1,3 +1,5 @@
+
+
 .about-container{
   display: grid;
   height: fit-content;
@@ -127,9 +129,6 @@
   }
   
   @media (max-width:600px){
-    .img-about{
-      margin-top: 15vh;
-    }
 
     .p-aboutus{
       font-size: 100%;
