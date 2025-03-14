@@ -152,7 +152,7 @@ body{
     width: 100vw;
     overflow: clip;
     justify-content: center;
-    height: 100px !important;
+    height: fit-content !important;
   }
   
   .fivestar{
@@ -244,5 +244,9 @@ body{
 
   .footer-href{
     font-size: 12px;
+  }
+
+  .fivestar{
+    display: none;
   }
 }
