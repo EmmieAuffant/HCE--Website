@@ -7,6 +7,10 @@ body{
   scroll-behavior: smooth;
 }
 
+#myBtn{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .header{
   background-color: rgba(4, 56, 6, 0.684);
   display: inline-flex;
@@ -148,7 +152,7 @@ body{
     width: 100vw;
     overflow: clip;
     justify-content: center;
-    height: 11.5vh !important;
+    height: 100px !important;
   }
   
   .fivestar{
