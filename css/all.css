@@ -5,7 +5,6 @@ body{
   background-color:rgb(255, 242, 242);
   overflow-x: hidden;
   scroll-behavior: smooth;
-  height: 100vh;
 }
 
 .header{
