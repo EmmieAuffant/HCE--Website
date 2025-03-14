@@ -149,7 +149,7 @@ body{
     width: 100vw;
     overflow: clip;
     justify-content: center;
-    height: 15vh;
+    height: 11.5vh !important;
   }
   
   .fivestar{
@@ -201,8 +201,12 @@ body{
     justify-self: center;
     text-align: center;
     margin: 5px 0;
-    height: 8vh;
-}
+    height: 6vh;
+  }
+
+  .b-contact, .b-about, .b-services{
+    padding: 2px 10px !important;
+  }
 }
 
 @media (max-width:600px){
