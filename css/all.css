@@ -217,7 +217,7 @@ body{
 }
 
 @media (max-width:600px){
-  .s-home{
+  .s-home, .header{
     height: fit-content;
   }
 
