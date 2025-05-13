@@ -205,8 +205,8 @@ body{
   }
 
   .logo-header{
-    justify-self: center;
-    text-align: center;
+    justify-self: center !important;
+    text-align: center !important;
     margin: 5px 0;
     height: 6vh;
   }
