@@ -51,7 +51,7 @@
   .s-home{
     width: 100vw;
     min-height: 100vh !important;
-
+    height: fit-content!important;
   }
   
   .t-home{
