@@ -20,6 +20,8 @@ body{
   align-items: center;
 }
 
+
+
 .logo-header{
   height: 110px;
   filter: grayscale(100%) brightness(300%);
@@ -145,6 +147,10 @@ body{
   .b-about, .b-services{
     margin-left: 0;
     margin: 0 10px;
+  }
+  
+  .s-home{
+    height: fit-content;
   }
   
   .header{
