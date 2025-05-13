@@ -219,6 +219,13 @@ body{
 }
 
 @media (max-width:600px){
+  .b-header{
+    border: 2px solid red ;
+  }
+  .logo-header{
+    border: 2px solid red ;
+  }
+  
   .footer{
     grid-template-columns: 50vw 50vw;
     grid-template-areas: "a b";
