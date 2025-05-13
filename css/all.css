@@ -218,20 +218,16 @@ body{
 
 @media (max-width:600px){
   .header{
-    height: 25vh !important;
-    border: 2px solid red ;
-    
+    height: fit-content !important;
   }
 
   .b-header{
-    border: 2px solid red ;
     height: fit-content;
     width: fit-content;
     padding:0 !important;
     margin: 0 !important;
   }
   .logo-header{
-    border: 2px solid red ;
     padding: 0 !important;
     margin: 0 !important;
   }
