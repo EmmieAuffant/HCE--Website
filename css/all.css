@@ -226,6 +226,14 @@ body{
     grid-template-areas: "a b";
   }
 
+  .logo-header{
+    border: 2px solid red;
+  }
+
+  .b-header-buttons{
+    border: 2px solid green;
+  }
+
   .bi-footer{
     font-size: 20px;
     padding: 0;
