@@ -149,9 +149,7 @@ body{
     margin: 0 10px;
   }
   
-  .s-home{
-    height: fit-content;
-  }
+
   
   .header{
     display: grid;
@@ -219,6 +217,10 @@ body{
 }
 
 @media (max-width:600px){
+  .s-home{
+    height: fit-content;
+  }
+
   .b-header{
     border: 2px solid red ;
     height: fit-content;
