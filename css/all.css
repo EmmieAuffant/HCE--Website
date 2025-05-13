@@ -155,7 +155,7 @@ body{
     display: grid;
     width: 100vw;
     overflow: clip;
-    justify-content: center;
+    justify-content: center !important;
     height: fit-content !important;
   }
   
@@ -218,18 +218,7 @@ body{
 
 @media (max-width:600px){
   .header{
-    height: 18vh !important;
-  }
-
-  .b-header{
-    height: fit-content;
-    width: fit-content;
-    padding:;
-    margin:;
-  }
-  .logo-header{
-    padding:;
-    margin:;
+    height: 15vh !important;
   }
   
   .footer{
