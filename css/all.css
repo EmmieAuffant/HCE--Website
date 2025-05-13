@@ -218,18 +218,18 @@ body{
 
 @media (max-width:600px){
   .header{
-    height: fit-content !important;
+    height: 18vh !important;
   }
 
   .b-header{
     height: fit-content;
     width: fit-content;
-    padding:0 !important;
-    margin: 0 !important;
+    padding:;
+    margin:;
   }
   .logo-header{
-    padding: 0 !important;
-    margin: 0 !important;
+    padding:;
+    margin:;
   }
   
   .footer{
