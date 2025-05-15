@@ -8,7 +8,6 @@ body{
   grid-template-areas: 'a b';
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
 }
 
 .left-contact-container{
