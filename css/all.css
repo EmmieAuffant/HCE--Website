@@ -64,6 +64,10 @@ body{
   justify-content: center;
 }
 
+a{
+  text-decoration: none;
+}
+
 .footer{
   height: 20vh;
   background-color: rgb(51, 66, 46);
@@ -149,8 +153,6 @@ body{
     margin: 0 10px;
   }
   
-
-  
   .header{
     display: grid;
     width: 100vw;
@@ -179,14 +181,19 @@ body{
     padding: 10px 10px !important;
     text-align: center;
     margin: 0;
-  }
 
-  .b-header-buttons{
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-areas: "1 2 3";
     text-align: center;
     margin: 0;
+  }
+
+  .logo-header{
+    padding: 0 !important;
+    display: flex;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   .b-contact{
@@ -218,20 +225,13 @@ body{
 
 @media (max-width:600px){
   .header{
-    height: 15vh !important;
+    height: 12vh !important;
+    padding-top: 5px !important;
   }
   
   .footer{
     grid-template-columns: 50vw 50vw;
     grid-template-areas: "a b";
-  }
-
-  .logo-header{
-    border: 2px solid red;
-  }
-
-  .b-header-buttons{
-    border: 2px solid green;
   }
 
   .bi-footer{
